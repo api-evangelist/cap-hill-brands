@@ -1,24 +1,64 @@
 aid: cap-hill-brands
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cap-hill-brands.png
 name: Cap Hill Brands
-description: 'Cap Hill Brands is a company surfaced as a portfolio company of version-one-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Cap Hill Brands was a Seattle-based e-commerce brand aggregator founded in 2020 by Kevin
+  Saliba and Jason LeeKeenan (both former Zulily leaders). Operating as a "tech-first" Amazon aggregator,
+  it acquired and operated digitally-native consumer/CPG brands sold on Amazon, Walmart, and Shopify,
+  handling supply chain, marketing, and warehousing. It raised roughly $250M in debt and equity and
+  acquired nearly 35 brands (including Butterfly Craze, merka, and LilGadgets). In March 2024 Cap Hill
+  Brands merged with product developer Juvo+ to form Infinite Commerce, which has since been absorbed
+  into Razor Group. Cap Hill Brands is a consumer operating company, not an API provider: it publishes
+  no public developer portal, API documentation, OpenAPI specs, SDKs, or partner integration surface.
+  Surfaced as a portfolio company of Version One Ventures and retained in the API Evangelist network as
+  an identity record.'
 url: https://raw.githubusercontent.com/api-evangelist/cap-hill-brands/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - version-one-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
+x-status: acquired
+x-successor: infinite-commerce
+x-enrichment:
+  last_run: '2026-07-18'
+  outcome: no-api-surface
+  method: searched
+  finding: 'E-commerce brand aggregator / CPG operator with no public developer API, docs, SDKs, or
+    integration surface. caphillbrands.com 301-redirects to infinitecommerce.com, which redirects to
+    razor-group.com. No API artifacts created (no-fabrication).'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
-apis: []
+- E-Commerce
+- CPG
+- Amazon Aggregator
+- Retail
+- Acquired
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://razor-group.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cap-hill-brands
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/cap-hill-brands
+apis: []
