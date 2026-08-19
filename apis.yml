@@ -38,7 +38,7 @@ x-enrichment:
   finding: 'E-commerce brand aggregator / CPG operator with no public developer API, docs, SDKs, or
     integration surface. caphillbrands.com 301-redirects to infinitecommerce.com, which redirects to
     razor-group.com. No API artifacts created (no-fabrication).'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
