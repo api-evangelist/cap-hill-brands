@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: razor-group.com
   final_host: www.razor-group.com
-  ownership: inherited
+  ownership: own
   owner: cap-hill-brands
   shares_host_with: null
-  inherited_from: www.razor-group.com
+  inherited_from: null
+  alias_of: www.razor-group.com
   verdict: silent
-  score: null
+  score: 0
+  band: 1
+  band_label: silent
   host_score: 0
-  density: null
+  density: 0.0
   words: 1116
   tiers:
     agentic: 0
