@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/cap-hill-brands/integrations
+- https://n8n.io/integrations/cap-hill-brands/
+- https://composio.dev/toolkits/cap-hill-brands
+- https://monid.ai/tools/cap-hill-brands
+checked:
+- https://composio.dev/toolkits/cap-hill-brands
+- https://monid.ai/tools/cap-hill-brands
+- https://n8n.io/integrations/cap-hill-brands/
+- https://zapier.com/apps/cap-hill-brands/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
